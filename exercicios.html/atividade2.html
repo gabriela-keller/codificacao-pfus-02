@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>Formulario</h1>
+    <form action="">Dados pessoais</form>
+    <fieldset>
+      <label for="nome">Coloque seu nome:</label>
+      <input
+        type="text"
+        id="nome"
+        placeholder="Digite seu nome"
+        maxlength="15"
+      />
+      <br />
+      <label for="">Email:</label>
+      <input 
+      type="email"
+       name="email" 
+       id="email" 
+       placeholder="dIgite seu email"
+       />
+       <br>
+       <label for="">Cidade</label>
+       <input type="text" 
+       name="cidade"
+       placeholder="Digite sua cidade">
+       <br>
+       <label for="">Estado:</label>
+       <select name="Estado" id="Estado">
+       <optgroup name="es" value="Es" label="ES">
+        <option value="SP">Sao Paulo</option>
+        <option value="MG">Minas Gerais</option>
+       </optgroup>
+       <option value="">Rio de Janeiro</option>
+       <option value="">Santa Catarina</option>
+       <option value="">Espirito Santo</option>
+       </select>
+
+    </fieldset>
+    <br>
+    <fieldset>
+        <label for="cargo">Natureza de cargo</label>
+        <br>
+        <input type="radio" name="cargo" value="gerencia">Gerencia 
+        <input type="radio" name="cargo" value="Financeiro">Financeiro
+        <input type="radio" name="cargo" value="recepcao">Recepção
+        <input type="radio" name="cargo" value="administrativo">Administrativo
+        <input type="radio" name="cargo" value="juridico">Jurídico
+        <br>
+        <br>
+        <label for="">Area de interesse</label>
+        <br>
+        <input type="checkbox" name="tec7" id="Computacao">Compuação 
+        <input type="checkbox" name="tec8" id="Biologo">Biologo
+        <input type="checkbox" name="tec9" id="meio ambiente">Meio Ambiente 
+        <input type="checkbox" name="tec10" id="Engenharia">Engenharia 
+        <input type="checkbox" name="tec11" id="Historia">Historia 
+
+        <br>
+        <br>
+        <label for="textao">Mini curriculo</label>
+        <textarea 
+        name="textao" 
+        id="textao">
+        </textarea>
+    </fieldset>
+  </body>
+</html>

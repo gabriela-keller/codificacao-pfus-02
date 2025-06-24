@@ -1,0 +1,44 @@
+/* estilização por tag */
+nav{
+    background-color: rgb(211, 187, 223);
+}
+ul{
+    list-style-type: none;
+}
+li{
+    font-size: 30px;
+}
+div{
+    background-color: rgb(61, 15, 185);
+    
+}
+p{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#caixa-roxa{
+    background-color: rgb(137, 29, 187);
+    color:white;
+    width: 200px;
+    height: 300px;
+}
+#caixa-rosa{
+     background-color: rgb(189, 15, 15);
+    color:white;
+    width: 1200px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+   
+}
+/* estilização por class */
+
+.minicaixa{
+    background-color: black;
+    font-size: 35px;
+    text-align: center;
+    width:30%;
+    height:100%;
+    display: inline-block;
+    
+}

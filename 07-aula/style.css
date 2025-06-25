@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(224, 179, 218);
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+     background-color: firebrick;
+} 
+
+#Principal{
+    width: 90%;
+    height: 800px;
+    margin: auto;
+    background-image:url(https://i.pinimg.com/originals/0a/d0/ce/0ad0cec4b866e095a997f77389adc409.gif) ;
+    background-repeat: no-repeat;
+  background-image: linear-gradient(red 10%, black 80%);
+    background-position: center;
+    background-size: cover;
+    background-size: 1000px 900px;
+
+}
+#secundaria{
+    width: 90%;
+    height: 2000px;
+    margin: auto;
+    background-color:rgb(216, 20, 53) ;
+    background-image: url(https://media.tenor.com/LY1SSPItsl8AAAAM/pedro-pedro-flamengo.gif);
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: 0px;
+    background-attachment: fixed;
+
+}

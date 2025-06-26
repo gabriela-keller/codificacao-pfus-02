@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 250, 250);
+    font-family: 'Segoe UI',  sans-serif;
+    background-image: url(https://i.pinimg.com/736x/28/92/04/28920486ce9fd531d25a2b72c582e4a0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1920px 1080px;
+   
+}
+
+p{
+    background-color: rgb(23, 67, 78);
+    padding: 5px;
+   
+}
+
+#nadireita{
+    text-align: right;
+}
+
+#aesquerda{
+    text-align: left;
+}
+
+#nocentro{
+    text-align: center;
+}
+
+#justificado{
+    text-align: justify;
+}
+
+#minusculo{
+    text-transform: lowercase;
+}
+
+#maiusculo{
+    text-transform: uppercase;
+}
+
+#capitalizado{
+    text-transform: capitalize;
+}
+
+H1{
+    font-size: 50PX;
+    font-weight: 400;
+    text-shadow: 10PX 5PX  rgb(8, 30, 124);
+}
+
+#decorado{
+    text-decoration: overline underline; 
+}
+
+#outrafonte{
+    font-family: Impact, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#fontegoogle{
+     font-family: "Sevillana", cursive;
+}
+
+@font-face{
+    font-family: 'EBGaramond';
+    src: url("./fontes/EBGaramond-VariableFont_wght.ttf");
+}
+
+#fontepersonalizada{
+    font-family: 'EBGaramond', sans-serif;
+    font-size: 50px;
+}
+
+

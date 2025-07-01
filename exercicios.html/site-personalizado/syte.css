@@ -1,0 +1,25 @@
+body{
+    background-color: red;
+}
+#inicio{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    background-image:url(https://i.pinimg.com/originals/0a/d0/ce/0ad0cec4b866e095a997f77389adc409.gif) ;
+    background-repeat: no-repeat;
+  background-image: linear-gradient(rgb(226, 16, 16) 10%, rgb(117, 10, 10) 80%);
+    background-position: center;
+    background-size: cover;
+    background-size: 2500px 200px;
+}
+
+#preto{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align: center;
+     background-size: cover;
+
+        
+}

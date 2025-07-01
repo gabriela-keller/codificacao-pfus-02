@@ -12,7 +12,7 @@ body{
     margin: auto;
     background-image:url(https://i.pinimg.com/originals/0a/d0/ce/0ad0cec4b866e095a997f77389adc409.gif) ;
     background-repeat: no-repeat;
-  background-image: linear-gradient(red 10%, black 80%);
+  background-image: linear-gradient(rgb(226, 16, 16) 10%, black 80%);
     background-position: center;
     background-size: cover;
     background-size: 1000px 900px;

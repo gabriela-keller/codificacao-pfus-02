@@ -1,0 +1,189 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(150, 32, 120);
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+header{
+    position: sticky;
+    top: 0px;
+}
+
+#navegacao{
+    width: 80%;
+    background-color: rgb(207, 27, 192);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    color: rgb(216, 205, 212);
+    font-size: 30px;
+    overflow:hidden;
+    position: sticky;
+    top: 0px;
+}
+
+.simbolo{
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgba(255, 253, 253, 0.836);
+}
+
+#item-menu{
+   list-style: none;
+   float: right;
+}
+
+li{
+    display:inline-block;
+    margin-left: 15px;
+    padding: 5px;
+}
+
+li:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    cursor: pointer;
+    border-radius: 90px ;
+    transform: scaleX(1.1);
+    transform: scaleY(1.1);
+    
+}
+#logo{
+    float: left;    
+
+}
+main{
+    background-color: hotpink;
+    height: 2000px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+     padding: 10px 15px;
+     font-size: 30px;
+     color: aliceblue;
+
+
+}
+#bloco{
+    background-color: mediumvioletred;
+    height: 200px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#linha-bloco{
+    background-color: rgb(56, 74, 233) ;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 900;
+    padding: 10px;
+    text-align: center;
+}
+.mini-bloco{
+    background-color: rgb(154, 68, 211);
+    width: 30%;
+    margin-top: 5px;
+    display: inline-block;
+    height: 200px;
+    line-height: 200px;
+}
+#linha{
+    background-color: yellowgreen;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+
+}
+
+.mini-linha{
+    background-color: darkslateblue;
+    margin-top: 5px;
+    height: 200px;
+    line-height: 200px;
+    width: 50%;
+    display: inline;
+}
+
+@media screen and (max-width: 800px){
+  body{
+    background-color: rgb(8, 157, 226);
+  }
+  #navegacao{
+     width: 90%;
+     background-color: rgb(0, 0, 0);
+     padding: 5px;
+  }
+  #logo{
+    font-size: 35px;
+    float: none;
+    text-align: center;
+  }
+.simbolo{
+    float: left;
+    font-size: 40px;
+}
+#item-menu{
+    float: none;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 7px;
+}
+}
+@media screen and (max-width:500px){
+    body{
+        background-color: rgb(192, 226, 43);
+    }
+    #navegacao{
+        width: 100%;
+        background-color: rgb(13, 58, 7);
+        padding: 5px;
+    }
+    #logo{
+        font-size: 40px;
+        text-align: center;
+
+    }
+    .simbolo{
+        font-size: 50px;
+        float: none;
+        color: green
+    }
+
+    li{
+        display: block;
+        width: 50%; 
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 25px;
+    }
+    main{
+        width: 100%;
+        padding: 0;
+    }
+    .mini-bloco{
+        width: 80%;
+        font-size: 20px;
+    }
+    .mini-linha{
+        font-size: 18px;
+        line-height: 100px;
+    }
+}
+
